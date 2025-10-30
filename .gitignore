@@ -1,9 +1,21 @@
 ### IntelliJ IDEA ###
-out/
-!**/src/mainVehicle/**/out/
-!**/src/test/**/out/
+# -----------------------------
+# Compiled output
+# -----------------------------
+/bin/
+/out/
+*.class
 
-### Eclipse ###
+# -----------------------------
+# Java build files
+# -----------------------------
+*.jar
+*.war
+*.ear
+
+# -----------------------------
+# Eclipse
+# -----------------------------
 .apt_generated
 .classpath
 .factorypath
@@ -11,19 +23,30 @@ out/
 .settings
 .springBeans
 .sts4-cache
-bin/
-!**/src/mainVehicle/**/bin/
-!**/src/test/**/bin/
 
-### NetBeans ###
+# -----------------------------
+# NetBeans
+# -----------------------------
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
 
-### VS Code ###
+# -----------------------------
+# VS Code
+# -----------------------------
 .vscode/
 
-### Mac OS ###
+# -----------------------------
+# Mac OS
+# -----------------------------
 .DS_Store
+
+# -----------------------------
+# Include source code folders
+# -----------------------------
+# BasicConcepts, OOPConcepts, StringConcepts
+!src/main/java/com/mallik/BasicConcepts/
+!src/main/java/com/mallik/OOPConcepts/
+!src/main/java/com/mallik/StringConcepts/

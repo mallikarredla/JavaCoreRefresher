@@ -1,7 +1,7 @@
 package main.java.com.mallik.OOPConcepts;
 
  class School {
-  
+
      void gateOpen(){
          System.out.println("The school gates are open");
      }
